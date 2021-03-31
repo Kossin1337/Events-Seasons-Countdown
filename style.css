@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Laila", sans-serif;
+  background-color: #fefefe;
+  color: #1b1b1b;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.main-header {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0.75rem 0;
+}
+
+.events-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.seasons-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.season {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 250px;
+  border-radius: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event-title {
+  position: relative;
+  margin: 1.25rem 0;
+  padding: 0.15rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
+  color: #fefefe;
+}
+
+.countdown-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin: 1.25rem 0;
+}
+
+.countdown-box {
+  width: 100%;
+  padding: 0.5rem 0;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  color: #fefefe;
+}
+
+.countdown-box .time {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.countdown-box span {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.spring {
+  background-image: url("/images/seasons/spring.jpg");
+}
+.summer {
+  background-image: url("/images/seasons/summer.jpg");
+}
+.autumn {
+  background-image: url("/images/seasons/autumn.jpg");
+}
+.winter {
+  background-image: url("/images/seasons/winter.jpg");
+}
+
+
+
+
+
+
+
